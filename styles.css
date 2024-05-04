@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+:root {
+  --padding: 20px;
+  --primary-color: #ff6e3c;
+  --secondary-color: #316e50;
+  --accent-color: #feaa29;
+}
+body {
+  background-color: rgba(238, 242, 245, 0.733);
+}
+header {
+  background: linear-gradient(45deg, #043e5557, #2914074d, #e22a2a2a);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 0px;
+  width: 100svw;
+  height: auto;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav > .menu {
+  width: 40px;
+  height: 40px;
+  background-color: #0202118e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 8px;
+  border-radius: 50%;
+}
+nav > .menu section {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin-block: 1.5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+nav > .menu section:first-child {
+  width: 20px;
+}
+header img {
+  height: auto;
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+header h3 {
+  color: #020211bb;
+  font-weight: 700;
+}
+header h1 {
+  margin-block: 20px;
+  text-wrap: balance;
+  color: #020211bb;
+  font-weight: normal;
+  font-size: x-large;
+}
+header p {
+  line-height: 20px;
+  color: #333;
+}
+header .hero {
+  padding: 20px;
+}
+header .hero a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #020211bb;
+  color: #f8f8f8ef;
+  padding: 15px;
+  display: block;
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.web {
+  color: rgba(255, 0, 0, 0.623);
+  font-weight: 600;
+}
+.software {
+  color: rgb(6, 60, 121);
+  font-weight: 600;
+}
+.intro {
+  padding: 20px;
+  font-size: 1.1rem;
+}
+main {
+  background-color: rgba(240, 248, 255, 0.925);
+}
+main .courses {
+  padding: 20px;
+}
+
+main .courses h3 {
+  font-size: 2rem;
+  color: #333;
+  text-transform: capitalize;
+}
